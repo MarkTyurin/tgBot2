@@ -23,7 +23,7 @@ import java.util.stream.Collectors;
 public class GameBotApplication extends TelegramLongPollingBot {
 
 	public static void main(String[] args) {
-		//SpringApplication.run(GameBotApplication.class, args);
+		SpringApplication.run(GameBotApplication.class, args);
 		ApiContextInitializer.init();
 		TelegramBotsApi telegramBotsApi = new TelegramBotsApi();
 		try{
